@@ -146,7 +146,7 @@ WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 - Green Line: WCSS Vs K
 - Red Line: WCSS of Autoencoder model Vs k
 
-![](https://https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/__results___78_0.png)
+![](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/__results___78_0.png)
 
 It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 

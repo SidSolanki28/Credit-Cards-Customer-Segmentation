@@ -24,14 +24,14 @@
 #### [Notebook Link -> Part 3 - AutoEncoder Model Building](https://nbviewer.jupyter.org/github/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/credit_card_autoencoder_model_builiding.ipynb)
 
 ---
-# About Project
+## About Project
 
 We are doing customer segmentation on credit card customer dataset so that we can analyse their customers and identify their needs.
 
 As we know, marketing is very important for growth and development of any company. By using customer segmentation, they can target specific customers according to their need which helps the company to increase their sales and revenue.
 
 ---
-# Code and Resources used
+## Code and Resources used
 
 - Python version: 3.7.6
 - Packages: Pandas, Numpy, Seaborn, Matplotlib, Scikit, Tensorflow and Keras
@@ -41,7 +41,7 @@ As we know, marketing is very important for growth and development of any compan
   - https://economictimes.indiatimes.com/wealth/borrow/how-to-get-a-credit-card-if-you-dont-have-a-job/articleshow/70769990.cms
   
 ---
-# Web Scraping
+## Web Scraping
 
 Dataset URL: https://www.kaggle.com/arjunbhasin2013/ccdata 
 
@@ -68,7 +68,7 @@ Following is the Data Dictionary for Credit Card dataset :-
 - TENURE : Tenure of credit card service for user
 
 ---
-# Data Cleaning
+## Data Cleaning
 
 I made the following changes and created the following variables:
 
@@ -76,16 +76,16 @@ I made the following changes and created the following variables:
 - Remove column “customer ID”
 
 ---
-# EDA
+## EDA
 
 I looked at the distributions of the data and the value counts for the various numerical variables. Below are a few highlights:
 
 ![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index_outlier.png)
 
 ---
-# Model Builiding
+## Model Builiding
 
-## K-means
+### K-means
 
 The K-Means is an unsupervised machine learning algorithm. It works by grouping data points with similar attribute values together by measuring the euclidean distances between them. It is simple and perhaps the most commonly used algorithm for clustering.
 
@@ -95,7 +95,7 @@ Two methods that can be useful to find this mysterious k in k-Means are:
 - The Elbow Method
 - The Silhouette Method
 
-### The Elbow Method
+#### The Elbow Method
 
 Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.
 
@@ -105,7 +105,7 @@ Within-Cluster-Sum of Squared Errors sounds a bit complex. Let’s break it down
 - The WSS score is the sum of these Squared Errors for all the points.
 - Any distance metric like the Euclidean Distance or the Manhattan Distance can be used
 
-### The Silhouette Method
+#### The Silhouette Method
 
 The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).
 
@@ -114,9 +114,9 @@ The range of the Silhouette value is between +1 and -1. A high value is desirabl
 The Silhouette Score reaches its global maximum at the optimal k.
 
 ---
-# Dimesionality Reduction
+## Dimesionality Reduction
 
-## Autoencoders
+### Autoencoders
 
 Autoencoder is an unsupervised artificial neural network that learns how to efficiently compress and encode data then learns how to reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.
 
@@ -139,7 +139,7 @@ Autoencoders consists of 4 main parts:
 ![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/0_BfGx9Pk2mf78GOfj.png)
 
 ---
-# Model Performance
+## Model Performance
 
 WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 
@@ -151,20 +151,20 @@ WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 
 ---
-# Model Prediction
+## Model Prediction
 
 Customer Segmentation by k-means clustering
 
 ![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index.png)
 
 ---
-# Conclusion
+## Conclusion
 
 After analyzing whole credit card dataset, we finally done customer segmentation by dividing customers into four clusters which can be used to target specific customers as their needs by marketers to provide offers, loans etc.
 
 ---
 
-# Further Improvements
+## Further Improvements
 
 - Not to avoid outliers as there are many outliers in dataset
 

@@ -15,13 +15,15 @@
 
 ---
 
-#### [Github Link](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation)
+## Go through Links
 
 #### [Notebook Link -> Part 1 - Pre-processing](https://nbviewer.jupyter.org/github/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/credit_card_pre_processing.ipynb)
 
 #### [Notebook Link -> Part 2 - Model Building](https://nbviewer.jupyter.org/github/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/credit_card_model_builiding.ipynb)
 
 #### [Notebook Link -> Part 3 - AutoEncoder Model Building](https://nbviewer.jupyter.org/github/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/credit_card_autoencoder_model_builiding.ipynb)
+
+#### [Github Link](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation)
 
 ---
 ## About Project

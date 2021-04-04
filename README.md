@@ -1,4 +1,4 @@
-# Credit Card Customer Segmentation 
+# Project 6: Credit Card Customer Segmentation 
 
 ---
 ## Project Overview

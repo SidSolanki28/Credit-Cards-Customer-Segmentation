@@ -84,6 +84,7 @@ I looked at the distributions of the data and the value counts for the various n
 
 ![](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/index_outlier.png)
 
+
 ---
 ## Model Builiding
 
@@ -126,6 +127,7 @@ Autoencoder, by design, reduces data dimensions by learning how to ignore the no
 
 ![Autoendoder for MNIST](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/1%20P7aFcjaMGLwzTvjW3sD-5Q.jpeg)
 
+
 Autoencoder Components:
 
 Autoencoders consists of 4 main parts:
@@ -140,6 +142,7 @@ Autoencoders consists of 4 main parts:
 
 ![](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/0_BfGx9Pk2mf78GOfj.png)
 
+
 ---
 ## Model Performance
 
@@ -150,6 +153,7 @@ WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 
 ![](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/__results___78_0.png)
 
+
 It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 
 ---
@@ -158,6 +162,7 @@ It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 Customer Segmentation by k-means clustering
 
 ![](https://github.com/SidSolanki28/Credit-Cards-Customer-Segmentation/blob/master/images/index.png)
+
 
 ---
 ## Conclusion
